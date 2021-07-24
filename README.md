@@ -1,5 +1,5 @@
 # cputemp
-Shell script to get the CPU temperature on Raspberry Pi OS
+Shell script to get the CPU temperature on Raspberry Pi OS.
 
 All code courtesy of [Pragmatic Linux](https://www.pragmaticlinux.com/2020/06/check-the-raspberry-pi-cpu-temperature/).
 
