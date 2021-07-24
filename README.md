@@ -1,10 +1,8 @@
-# cputemp
+# raspberrypi-cputemp
 Shell script to get the CPU temperature on Raspberry Pi OS.
 
-All code courtesy of [Pragmatic Linux](https://www.pragmaticlinux.com/2020/06/check-the-raspberry-pi-cpu-temperature/).
+Shell script courtesy of [Pragmatic Linux](https://www.pragmaticlinux.com/2020/06/check-the-raspberry-pi-cpu-temperature/).
 
-To use this script, save it as cputemp.sh. Next, make sure that the script is executable before running it:
+To make this a custom command, save it as `cputemp` in `/usr/bin` and run `sudo chmod +x cputemp`
 
-chmod +x cputemp.sh
-
-./cputemp.sh
+Then run the custom command `cputemp` anytime to see the CPU temperature.
